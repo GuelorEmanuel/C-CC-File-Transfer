@@ -1,3 +1,6 @@
+//  Program: client
+//  Purpose: Client process for a file transfer system.
+
 #include <cstdlib>
 #include <iostream>
 #include <string>
@@ -7,11 +10,12 @@ int main(int argc, char *argv[]) {
   int port_number = -1;
   string ip_address;
 
+  // Parse command line arguments
   for (int i = 0; i < argc; ++i) {
     if (strcmp(argv[i], "-port") == 0 && i + 1 < argc) {
-      port_number = atoi(argv[i+1]);
+      port_number = atoi(argv[i + 1]);
     } else if (strcmp(argv[i], "-ip") == 0 && i + 1 < argc) {
-      ip_address = argv[i+1];
+      ip_address = argv[i + 1];
     }
   }
 

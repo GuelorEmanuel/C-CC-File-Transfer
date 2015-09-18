@@ -1,3 +1,6 @@
+//  Program: server
+//  Purpose: Server process for a file transfer system.
+
 #include <cstdlib>
 #include <iostream>
 #include <string>
@@ -5,9 +8,11 @@ using namespace std;
 
 int main(int argc, char *argv[]) {
   int port_number = -1;
+
+  // Parse command line arguments
   for (int i = 0; i < argc; ++i) {
     if (strcmp(argv[i], "-port") == 0 && i + 1 < argc) {
-      port_number = atoi(argv[i+1]);
+      port_number = atoi(argv[i + 1]);
     }
   }
 
