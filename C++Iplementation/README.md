@@ -1,4 +1,4 @@
-# COMP 3203 A: Assignment 1
+# C++ File Transfer system
 ## Team
 - Michael Lutaaya (Student #100843544)
 - Guelor  Emauel  (Student #100884107)
