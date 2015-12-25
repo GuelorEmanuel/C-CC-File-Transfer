@@ -1,4 +1,4 @@
-# COMP 3203 A: Assignment 1
+# C File Transfer system
 ## Team
 - Tope Babajide (Student #100815672)
 - Guelor Emanuel (Student #100884107)
